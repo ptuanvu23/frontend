@@ -1,0 +1,68 @@
+body {
+    overflow-x: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+}
+
+header {
+    padding: 10px 20px;
+}
+
+header img.logo {
+    height: 50px;
+}
+
+header .handcrafted {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .handcrafted img {
+    border-radius: 50%;
+    height: 50px;
+}
+
+header .handcrafted .name {
+    font-size: 12px;
+}
+
+.content .header {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+}
+
+.content .header h1 {
+    font-size: 2.5rem;
+}
+
+.content .header p {
+    font-size: 1rem;
+}
+
+.joke-text {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer img {
+    border-radius: 50%;
+}
